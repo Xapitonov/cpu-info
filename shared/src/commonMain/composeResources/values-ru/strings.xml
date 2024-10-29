@@ -1,0 +1,216 @@
+<!--
+  ~ Авторское право 2017 KG Soft
+  ~
+  ~ Лицензировано в соответствии с лицензией Apache, версия 2.0 ("Лицензия");
+  ~ вы не можете использовать этот файл, за исключением случаев, когда это соответствует Лицензии.
+  ~ Вы можете получить копию Лицензии по адресу
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Если не требуется по действующему законодательству или не согласовано в письменной форме, программное
+  ~ обеспечение, распространяемое по Лицензии, распространяется на условиях "КАК ЕСТЬ",
+  ~ БЕЗ ГАРАНТИЙ И УСЛОВИЙ ЛЮБОГО РОДА, как явных, так и подразумеваемых.
+  ~ См. Лицензию для получения конкретного языка, регулирующего права и
+  ~ ограничения в рамках Лицензии.
+  -->
+
+<resources>
+
+    <string name="action_not_supported">Действие недоступно</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="id" translatable="false">ID</string>
+    <string name="vram" translatable="false">Видеооперативная память</string>
+    <string name="edid" translatable="false">EDID</string>
+
+    <!--Вкладки-->
+    <string name="cpu">ЦП</string>
+    <string name="gpu">ГП</string>
+    <string name="ram">ОЗУ</string>
+    <string name="storage">Хранилище</string>
+    <string name="screen">Экран</string>
+    <string name="tab_os" translatable="false">ОС</string>
+    <string name="hardware">Аппаратное</string>
+    <string name="sensors">Датчики</string>
+
+    <string name="processes">Процессы</string>
+    <string name="applications">Приложения</string>
+    <string name="temp">Температура</string>
+    <string name="settings">Настройки</string>
+
+    <string name="running_gc">Запуск сборщика мусора</string>
+
+    <!--ЦП-->
+    <string name="cpu_current_frequency" translatable="false">Ядро %1$d: %2$sМГц</string>
+    <string name="cpu_frequency" translatable="false">%1$sМГц</string>
+    <string name="cpu_frequency_stopped" translatable="false">Ядро %1$d: Остановлено</string>
+    <string name="cpu_soc_name" translatable="false">Название SoC</string>
+    <string name="cpu_cores" translatable="false">Ядра</string>
+    <string name="cpu_has_neon" translatable="false">ARM Neon</string>
+    <string name="cpu_l1d" translatable="false">Кэш L1D</string>
+    <string name="cpu_l1i" translatable="false">Кэш L1i</string>
+    <string name="cpu_l2" translatable="false">Кэш L2</string>
+    <string name="cpu_l3" translatable="false">Кэш L3</string>
+    <string name="cpu_l4" translatable="false">Кэш L4</string>
+    <string name="cpu_abi" translatable="false">ABI</string>
+
+    <!--Приложения-->
+    <string name="app_open">Невозможно открыть это приложение</string>
+    <string name="cpu_open">Не открывай меня дважды :-)</string>
+    <string name="cpu_uninstall">Не могу этого сделать :-(</string>
+    <string name="native_libs" translatable="false">Нативные библиотеки</string>
+    <string name="apps_show_system_apps">Показать системные приложения</string>
+    <string name="apps_sort_order">Порядок сортировки</string>
+
+    <!--ГП-->
+    <string name="vulkan_version">Версия Vulkan</string>
+    <string name="metal_version">Версия Metal</string>
+    <string name="gles_version">Версия GLES</string>
+    <string name="vendor">Производитель</string>
+    <string name="version">Версия</string>
+    <string name="renderer">Отрисовка</string>
+    <string name="extensions">Расширения</string>
+
+    <!--ОЗУ-->
+    <string name="total_memory">Всего памяти</string>
+    <string name="available_memory">Доступная память</string>
+    <string name="threshold">Порог</string>
+
+    <!--Хранилище-->
+    <string name="internal">Внутренняя</string>
+    <string name="external">Внешняя</string>
+    <string name="storage_estimated">Оценка</string>
+
+    <!--Экран-->
+    <string name="screen_class">Класс экрана</string>
+    <string name="small">Маленький</string>
+    <string name="normal">Нормальный</string>
+    <string name="large">Большой</string>
+    <string name="unknown">Неизвестный</string>
+    <string name="density_class">Класс плотности</string>
+    <string name="width">Ширина</string>
+    <string name="height">Высота</string>
+    <string name="dp_width">Ширина в dp</string>
+    <string name="dp_height">Высота в dp</string>
+    <string name="density">Плотность</string>
+    <string name="absolute_width">Абсолютная ширина</string>
+    <string name="absolute_height">Абсолютная высота</string>
+    <string name="refresh_rate">Частота обновления</string>
+    <string name="orientation">Ориентация</string>
+    <string name="camera_lens_number">Кол-во объективов</string>
+    <string name="screen_scale">Масштаб экрана</string>
+    <string name="screen_brightness">Яркость экрана</string>
+    <string name="screen_max_fps" translatable="false">Макс. Кадры/с</string>
+    <string name="screen_calibrated_latency">Калиброванная задержка</string>
+    <string name="screen_inner_width">Внутренняя ширина</string>
+    <string name="screen_inner_height">Внутренняя высота</string>
+    <string name="screen_available_width">Доступная ширина экрана</string>
+    <string name="screen_available_height">Доступная высота экрана</string>
+    <string name="os_platform">Платформа</string>
+    <string name="os_app_code_name">Кодовое имя приложения</string>
+    <string name="os_app_name">Имя приложения</string>
+    <string name="os_app_version">Версия приложения</string>
+    <string name="os_product">Продукт</string>
+    <string name="os_product_sub">Подпродукт</string>
+    <string name="os_user_agent">Пользовательский агент</string>
+    <string name="os_vendor_sub">Под вендор</string>
+    <string name="os_language">Язык</string>
+    <string name="os_languages">Языки</string>
+    <string name="os_cookies_enabled">Cookies включены</string>
+    <string name="os_history_length">Длина истории</string>
+    
+    <!--ОС-->
+    <string name="codename">Кодовое имя</string>
+    <string name="brand">Бренд</string>
+    <string name="model">Модель</string>
+    <string name="manufacturer">Производитель</string>
+    <string name="board">Плата</string>
+    <string name="serial">Серийный номер</string>
+    <string name="rooted">Рутированный</string>
+    <string name="encrypted_storage">Зашифрованное хранилище</string>
+    <string name="security_providers">Поставщики безопасности</string>
+    <string name="sdk" translatable="false">SDK</string>
+    <string name="bootloader" translatable="false">Загрузчик</string>
+    <string name="vm" translatable="false">Виртуальная машина</string>
+    <string name="kernel" translatable="false">Ядро ОС</string>
+    <string name="android_id" translatable="false">Android ID</string>
+    <string name="google_services_framework_id" translatable="false">Google Services Framework ID</string>
+    <string name="strongbox" translatable="false">StrongBox</string>
+    <string name="os_multitasking_supported">Поддержка многозадачности</string>
+    <string name="os_vendor_identifier">Идентификатор поставщика</string>
+    <string name="os_jailbroken" translatable="false">Взломанный</string>
+
+    <!--Аппаратное обеспечение-->
+    <string name="battery">Аккумулятор</string>
+    <string name="wireless">Wireless</string>
+    <string name="sound_card">Звуковая карта</string>
+    <string name="level">Уровень</string>
+    <string name="voltage">Напряжение</string>
+    <string name="temperature">Температура</string>
+    <string name="capacity">Ёмкость</string>
+    <string name="technology">Технология</string>
+    <string name="is_charging">Заряжается</string>
+    <string name="charging_type">Тип зарядки</string>
+    <string name="wifi_mac">Wi-Fi Mac</string>
+    <string name="bluetooth" translatable="false">Bluetooth</string>
+    <string name="bluetooth_le" translatable="false">Bluetooth LE</string>
+    <string name="bluetooth_mac">Bluetooth Mac</string>
+    <string name="amount">Кол-во</string>
+    <string name="card">Карта</string>
+    <string name="cameras">Камеры</string>
+    <string name="camera">Камера</string>
+    <string name="type">Тип</string>
+    <string name="front">Передняя</string>
+    <string name="camera_external">Внешняя</string>
+    <string name="back">Задняя</string>
+    <string name="battery_health">Состояние</string>
+    <string name="battery_cold">Холодная</string>
+    <string name="battery_good">Хорошая</string>
+    <string name="battery_dead">Разряженная</string>
+    <string name="battery_overheat">Перегрев</string>
+    <string name="battery_overvoltage">Перенапряжение</string>
+    <string name="battery_unknown">Неизвестно</string>
+    <string name="battery_unspecified_failure">Неуказанная неисправность</string>
+    <string name="battery_state">Состояние батареи</string>
+    <string name="battery_unplugged">Отключена</string>
+    <string name="battery_charging">Зарядка</string>
+    <string name="battery_full">Полная</string>
+    <string name="ir_emitter">ИК-Излучатель</string>
+    <string name="hardware_microphones">Микрофоны</string>
+    <string name="hardware_computer_system">Система ПК</string>
+    <string name="hardware_firmware" translatable="false">Прошивка</string>
+    <string name="hardware_motherboard">Материнская плата</string>
+    <string name="hardware_uuid" translatable="false">UUID</string>
+    <string name="hardware_network_interfaces">Сетевые интерфейсы</string>
+    <string name="hardware_power_sources">Источник питания</string>
+
+    <!--Параметры-->
+    <string name="general">Общее</string>
+    <string name="temperature_unit">Единица измерения температуры</string>
+    <string name="pref_theme_dark">Тёмная</string>
+    <string name="pref_theme_light">Светлая</string>
+    <string name="pref_theme_default">Системная по умолчанию</string>
+    <string name="pref_theme">Тема</string>
+    <string name="pref_theme_choose">Выбрать тему</string>
+
+    <!--Температура-->
+    <string name="no_temp_data">Извините, я не могу найти датчики температуры :-(</string>
+    <string name="celsius" translatable="false">&#176;C</string>
+    <string name="fahrenheit" translatable="false">&#176;F</string>
+    <string name="kelvin" translatable="false">&#176;K</string>
+    <string name="temp_thermal_state">Тепловое состояние: %1$s</string>
+    <string name="temp_thermal_state_nominal">Нормальное</string>
+    <string name="temp_thermal_state_fair">Удовлетворительное</string>
+    <string name="temp_thermal_state_serious">Серьезное</string>
+    <string name="temp_thermal_state_critical">Критическое</string>
+
+    <!--Датчики-->
+    <string name="sensors_accelerometer">Акселерометр</string>
+    <string name="sensors_cpu_temperature">Температура ЦП</string>
+    <string name="sensors_cpu_voltage">Напряжение ЦП</string>
+    <string name="sensors_fan_speeds">Скорости вентилятора</string>
+
+</resources>
